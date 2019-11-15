@@ -20,8 +20,10 @@ def insult():
 insult()
 
 retry = input("\nWould you like to hear another one? (y/n)\n")
-# if retry == "y":
-#   insult()
-# else:
-#   print("\nGoodbye.")
-#   exit()
+def restart():
+    if retry == "y":
+        insult()
+    else:
+        print("\nGoodbye.")
+        exit()
+restart()
