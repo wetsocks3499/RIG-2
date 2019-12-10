@@ -1,9 +1,9 @@
 #  array of insult "blocks," seperated into three parts.
 #  ADJ => NOUN => VERB
-adj = ['a messy', 'a disheveled', 'a monkey-brained', 'a poorly-packaged pile of', 'a crunchy', 'an oblique', 'a flat-headed']
+adj = [' messy ', ' disheveled ', ' monkey-brained ', ' poorly-packaged pile of ', ' crunchy ', ' flat-headed ', ' smelly ', ' foul-mouthed ']
 
-special = ['Flat-Earth believing', 'neck-bearded']
+special = ['Flat-Earth believing,', 'neck-bearded,']
 
-noun = ['donkey', 'ogre', 'chicken', 'child', 'teacher']
+noun = ['donkey', 'ogre', 'chicken', 'child', 'teacher', ' Python ']
 
-verb = ['licker', 'pleaser', 'imitator', 'slapper', 'eater']
+verb = [' licker', ' pleaser', ' imitator', ' slapper', ' eater', ' coder']

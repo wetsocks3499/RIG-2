@@ -6,21 +6,22 @@ import random
 #########
 
 name = input("Before we begin, what's your name?\n")
-print("Hello,", name,"!")
+print("\nHello, "+name+"!\n")
 def insult():
     adjPrint = random.choice(adj)
     nounPrint = random.choice(noun)
     verbPrint = random.choice(verb)
-    specialPrint = ""
+    specialPrint = "" # storage value
 
-    if random.random() < 15:
+    if random.random() == 15: # 5% chance
         specialPrint = random.choice(special)
 
-    print(name,", you're such ",specialPrint, adjPrint, nounPrint, verbPrint,"!")  # ugly, but it works.
+    print(name+", you're a"+specialPrint+adjPrint+nounPrint+verbPrint+"!")  # ugly, but it works.
 insult()
-retry = input("\nWould you like to hear another one? (y/n)\n")
-# if retry == "y":
-#   insult()
-# else:
-#   print("\nGoodbye.")
-#   exit()
+specialPrint = "" # resets the variable
+retry = input("\nWould you like to hear another one? (y/N)\n")
+if retry == "y":
+    insult()
+else:
+    print("\nGoodbye.")
+    exit()
