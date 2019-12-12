@@ -1,8 +1,8 @@
 #########
 import splash
 from compo import *
-import sys
 import random
+import colorama
 #########
 
 name = input("Before we begin, what's your name?\n")
