@@ -17,11 +17,19 @@ def insult():
         specialPrint = random.choice(special)
 
     print(name+", you're a"+specialPrint+adjPrint+nounPrint+verbPrint+"!")  # ugly, but it works.
+    specialPrint = "" # resets the variable
+    retry = "y"
+    retry = input("\nWould you like to hear another one? (y/n)\n")
+    if retry == "y":
+        retry = ""
+        insult()
+    elif retry == "n":
+        print("\nGoodbye.")
+        exit()
+    
+
+
+
+
+## run call
 insult()
-specialPrint = "" # resets the variable
-retry = input("\nWould you like to hear another one? (y/N)\n")
-if retry == "y":
-    insult()
-else:
-    print("\nGoodbye.")
-    exit()
