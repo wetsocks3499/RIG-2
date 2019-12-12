@@ -1,11 +1,12 @@
+from colorama import Fore
 def splashAscii():
 ###########################################################################################
-    print('''                                       oo                            dP   dP
-                                                                     88   88
-                                       dP 88d888b. .d8888b. dP    dP 88 d8888P
-                                       88 88'  `88 Y8ooooo. 88    88 88   88
-                                       88 88    88       88 88.  .88 88   88
-                                       dP dP    dP `88888P' `88888P' dP   dP
+    print(Fore.BLUE+"\n"'''                                         oo                            dP   dP
+                                                                       88   88
+                                         dP 88d888b. .d8888b. dP    dP 88 d8888P
+                                         88 88'  `88 Y8ooooo. 88    88 88   88
+                                         88 88    88       88 88.  .88 88   88
+                                         dP dP    dP `88888P' `88888P' dP   dP
 
 
                                                         dP
@@ -16,7 +17,7 @@ def splashAscii():
 `8888P88 `88888P' dP    dP `88888P' dP       `88888P8   dP   `88888P' dP
      .88
  d8888P                                                                        ''')
-    print('''                                                                      .oooo.
+    print(Fore.YELLOW+'''                                                                      .oooo.
                                                                     .dP""Y88b
                                                                           ]8P'
                                                                         .d8P'
